@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             img: 'images/images/valley1.jpg'
         },
         {
-            name: 'waterfall1'
+            name: 'waterfall1',
             img: 'images/images/waterfall1.jpg'
         },
         {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             img: 'images/images/white.jpg'
         },
         {
-            name: 'waterfall1'
+            name: 'waterfall1',
             img: 'images/images/waterfall1.jpg'
         },
         {
