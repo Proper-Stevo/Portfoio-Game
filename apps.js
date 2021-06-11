@@ -1,52 +1,71 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    var cardArray = new Array ();
-        
-        imgArray[0] = new Image();
-        imgArray[0].src = 'images/beach1.jpeg';
-        
-        imgArray[1] = new Image();
-        imgArray[1].src = 'images/ocean1.jpeg';
-        
-    
-        imgArray[2] = new Image();
-        imgArray[2].src = 'images/snow1.jpeg'
-        
-    
-        imgArray[3] = new Image();
-        imgArray[3].src = 'images/space1.jpeg'
-        
-        
-        imgArray[4] = new Image();
-        imgArray[4].src = 'images/valley1.jpeg'
-        
-        
-        imgArray[5] = new Image();
-        imgArray[5].src = 'images/waterfall1.jpeg'
-        
-        imgArray[5] = new Image();
-        imgArray[5].src = 'images/waterfall1.jpeg'
-        
-        
-        imgArray[4] = new Image();
-        imgArray[4].src = 'images/valley1.jpeg'
-        
-    
-        imgArray[3] = new Image();
-        imgArray[3].src = 'images/space1.jpeg'
-        
-        
-        imgArray[2] = new Image();
-        imgArray[2].src = 'images/snow1.jpeg'
-        
-    
-        imgArray[1] = new Image();
-        imgArray[1].src = 'images/ocean1.jpeg'
-        
-        
-        imgArray[0] = new Image();
-        imgArray[0] = 'images/beach1.jpeg'
-        
+    const cardArray = [
+        {
+            name: 'beach1',
+            img: 'images/images/beach1.jpg'
+        },
+        {
+            name: 'blank',
+            img: 'imgaes/images/blank.jpg'
+        },
+        {
+            name: 'ocean1',
+            img: 'images/images/ocean.jpg'
+        },
+        {
+            name: 'snow1',
+            img: 'images/images/snow.jpg'
+        },
+        {
+            name: 'space1',
+            img: 'images/images/space1.jpg'
+        },
+        {
+            name: 'valley1',
+            img: 'images/images/valley1.jpg'
+        },
+        {
+            name: 'waterfall1'
+            img: 'imgaes/images/waterfall.jpg'
+        },
+        {
+            name: 'white',
+            img: 'images/images/white.jpg'
+        },
+        {
+            name: 'white',
+            img: 'images/images/white.jpg'
+        },
+        {
+            name: 'waterfall1'
+            img: 'imgaes/images/waterfall.jpg'
+        },
+        {
+            name: 'valley1',
+            img: 'images/images/valley1.jpg'
+        },
+        {
+            name: 'space1',
+            img: 'images/images/space1.jpg'
+        },
+        {
+            name: 'snow1',
+            img: 'images/images/snow.jpg'
+        },
+        {
+            name: 'ocean1',
+            img: 'images/images/ocean.jpg'
+        },
+        {
+            name: 'blank',
+            img: 'imgaes/images/blank.jpg'
+        },
+        {
+            name: 'beach1',
+            img: 'images/images/beach1.jpg'
+        },
+    ]
     
 
     cardArray.sort(() => 0.5 - Math.random())
